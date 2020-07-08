@@ -1,0 +1,9 @@
+.popup__button.popup__button_type_plus {
+    background-image: url(../../../../images/plus_grey.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.popup__button.popup__button_type_plus:enabled {
+    background-image: url(../../../../images/plus_white.png);
+}

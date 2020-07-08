@@ -1,0 +1,17 @@
+.like__icon {
+    background: url(../../../images/like-inactive.svg) center no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+    transition: transform .3s linear;
+  }
+
+  .like__icon_liked {
+    background-image: url(../../../images/like-active.svg);
+  }
+
+  .like__icon:hover {
+    transform: scale(1.03);
+  }

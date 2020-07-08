@@ -1,0 +1,6 @@
+@import url(./_type/popup__content_type_form.css);
+@import url(./_type/popup__content_type_image-view-card.css);
+.popup__content {
+    position: relative;
+    box-sizing: border-box;
+}

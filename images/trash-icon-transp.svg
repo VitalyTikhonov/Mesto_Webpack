@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L18 0L18 20L0 20L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="trash-icon" opacity="0.4">
+    <path d="M0 0L18 0L18 20L0 20L0 0Z" id="Background" fill="none" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M1.17833 12.3521C1.23927 13.0225 1.78781 13.5101 2.45824 13.5101L12.9819 13.5101C13.6524 13.5101 14.2009 13.0022 14.2618 12.3521L15.4402 0L0 0L1.17833 12.3521L1.17833 12.3521Z" transform="translate(1.279297 5.7901)" id="Shape" fill="#FFFFFF" stroke="none" />
+      <path d="M16.7201 1.93002L11.5801 1.93002L11.5801 1.27991C11.5801 0.568849 11.0113 0 10.3002 0L7.72009 0C7.00903 0 6.44018 0.568849 6.44018 1.27991L6.44018 1.93002L1.27991 1.93002C0.568849 1.93002 0 2.49887 0 3.20993C0 3.92099 0.568849 4.48984 1.27991 4.48984L16.7201 4.48984C17.4312 4.48984 18 3.92099 18 3.20993C18 2.49887 17.4312 1.93002 16.7201 1.93002L16.7201 1.93002Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>
