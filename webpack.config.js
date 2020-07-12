@@ -12,13 +12,39 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: { loader: "babel-loader" },
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        plugins: ['transform-class-properties']
+                    }
+                },
                 exclude: /node_modules/
             },
             {
                 test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader']
-            }
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: './vendor/fonts/[name].[ext]'
+                    }
+                }
+            },
+            {
+                test: /\.(png|jpe?g|gif|ico|svg|webp)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: './images/[name].[ext]'
+                    }
+                },
+                //         {
+                //     loader: 'image-webpack-loader',
+                //     options: {}
+            },
         ]
     },
     plugins: [
