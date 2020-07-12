@@ -11,16 +11,19 @@
 - собственная валидация форм;
 - подключение к API: обмен данными с сервером.
 ## Используемые технологии
-JavaScript, HTML, CSS, WebPack
+- JavaScript
+- HTML
+- CSS
+- WebPack
 ### Пакеты, задействованные в Вебпаке:
-[Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
-[Babel Core](https://babeljs.io/docs/en/babel-core)
-[Babel Preset Evnvironment](https://babeljs.io/docs/en/babel-preset-env#docsNav)
-[Сore JS](https://github.com/zloirock/core-js#readme)
-[PostCSS](https://postcss.org/)
-[Define plugin](https://webpack.js.org/plugins/define-plugin/)
-[Style loader](https://github.com/webpack-contrib/style-loader)
-[Optimize CSS assets](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)
+- [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
+- [Babel Core](https://babeljs.io/docs/en/babel-core)
+- [Babel Preset Evnvironment](https://babeljs.io/docs/en/babel-preset-env#docsNav)
+- [Сore JS](https://github.com/zloirock/core-js#readme)
+- [PostCSS](https://postcss.org/)
+- [Define plugin](https://webpack.js.org/plugins/define-plugin/)
+- [Style loader](https://github.com/webpack-contrib/style-loader)
+- [Optimize CSS assets](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)
 и др.
 ## Как воспользоваться проектом
 ### Посмотреть на Github Pages:
