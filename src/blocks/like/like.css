@@ -1,6 +1,0 @@
-@import url(./__icon/like__icon.css);
-@import url(./__count/like__count.css);
-.like {
-    display: flex;
-    flex-direction: column;
-}
