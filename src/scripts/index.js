@@ -13,6 +13,7 @@ import {UserInfo} from "./UserInfo.js";
 (function () {
     /* ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ */
     const placesListNode = document.querySelector('.places-list');                                // CardList, Card
+    const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
     /* ---- РЕАЛИЗОВАНО ----
     REVIEW. Можно лучше. Наверное, в этом проекте имеет смысл передавать в параметры только объект с атрибутами карточки (смотрите
     комментарий в классе Card и ссылку на статью там же). А вообще передача объекта как параметра считается небезопасной, так как в
@@ -142,7 +143,7 @@ import {UserInfo} from "./UserInfo.js";
         userAvatarField,
     );
     const api = new Api({
-        baseUrl: 'https://praktikum.tk/cohort11',
+        baseUrl: `${API_URL}/cohort11`,
         authorization: '0b72fd76-9a90-456a-b6c4-44b360b3c5bd', // headers
         content_type: 'application/json', // headers
     });
