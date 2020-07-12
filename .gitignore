@@ -1,5 +1,5 @@
 images/PixelPerfect
 dist
-node-modules
+node_modules
 .idea
 .DS_Store
