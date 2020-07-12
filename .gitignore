@@ -1,1 +1,5 @@
 images/PixelPerfect
+dist
+node-modules
+.idea
+.DS_Store
