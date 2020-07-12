@@ -1,4 +1,6 @@
 "use strict";
+import {Popup} from "./Popup.js";
+
 class ImagePopup extends Popup {
     constructor(popup, closeIcon, popupImage) {
         super(popup, closeIcon);
@@ -56,3 +58,5 @@ class ImagePopup extends Popup {
         this.removePopupCloseListeners();
     }
 }
+
+export {ImagePopup};

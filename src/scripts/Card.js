@@ -172,3 +172,5 @@ class Card {
         return this.cardElement;
     }
 }
+
+export {Card};

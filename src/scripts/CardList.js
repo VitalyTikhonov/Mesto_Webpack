@@ -34,3 +34,5 @@ class CardList {
             .then(res => this.container.appendChild(this.createPlaceCard(res)));
     }
 }
+
+export {CardList};

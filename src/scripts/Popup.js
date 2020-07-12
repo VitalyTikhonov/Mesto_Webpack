@@ -21,3 +21,5 @@ class Popup {
         this.popup.classList.remove('popup_is-open');
     }
 }
+
+export {Popup};

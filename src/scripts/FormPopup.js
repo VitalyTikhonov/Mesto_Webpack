@@ -1,4 +1,6 @@
 "use strict";
+import {Popup} from "./Popup.js";
+
 class FormPopup extends Popup {
     constructor(
         popup,
@@ -160,3 +162,5 @@ class FormPopup extends Popup {
             });
     }
 }
+
+export {FormPopup};
