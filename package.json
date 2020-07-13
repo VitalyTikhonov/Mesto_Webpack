@@ -2,9 +2,9 @@
   "name": "v_tikhonov_course_04_project_11",
   "version": "0.0.1",
   "description": "An academic project for Webpack setup",
-  "main": "index.js",
+  "main": "./src/scripts/index.js",
   "scripts": {
-    "build": "rm -rf && cross-env NODE_ENV=production webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },

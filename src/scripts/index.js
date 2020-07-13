@@ -4,7 +4,7 @@ import "../pages/index.css";
 /* ИМПОРТ МОДУЛЕЙ */
 import {Api} from "./Api.js";
 import {Card} from "./Card.js";
-import {CardList} from "./Cardlist.js";
+import {CardList} from "./CardList.js";
 import {FormPopup} from "./FormPopup.js";
 import {FormValidator} from "./FormValidator.js";
 import {ImagePopup} from "./ImagePopup.js";
