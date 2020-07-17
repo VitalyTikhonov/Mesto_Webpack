@@ -102,3 +102,5 @@ class FormValidator {
         return valid;
     }
 }
+
+export {FormValidator};

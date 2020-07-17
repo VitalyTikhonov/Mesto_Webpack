@@ -63,3 +63,5 @@ class UserInfo {
         this.userInfoAvatar.style.backgroundImage = `url(${this.userAvatar})`;
     }
 }
+
+export {UserInfo};

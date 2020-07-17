@@ -131,3 +131,5 @@ class Api {
             .then(res => this.primaryResponseHandler(res));
     }
 }
+
+export {Api};
