@@ -1,5 +1,6 @@
 # Mesto_Webpack v1.0.1
 ***For English scroll down***
+
 Учебное задание по сборке проекта с помощью Вебпака
 ## Функционал проекта
 Настроена development- и production-сборка, а также размещение (deployment) на сервере.
