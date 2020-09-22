@@ -34,6 +34,7 @@ https://VitalyTikhonov.github.io/Mesto_Webpack
 - Создайте локальную копию репозитория по SSH-ключу *git@github.com:VitalyTikhonov/Mesto_Webpack.git* или скачайте архив [с главной страницы репозитория](https://github.com/VitalyTikhonov/Mesto_Webpack).
 - Установите в проекте Вебпак и необходимые компоненты командой _npm install_.
 - Для создания финальной сборки вызывайте в консоли команду *npm run build*, сборки в режиме разработки – *npm run dev*, развертывания на сервере – *npm run deploy*.
+###### В рамках курса "Веб-разработка" в Яндекс.Практикуме
 ***
 # Mesto_Webpack v1.0.1 (EN)
 An academic task on building a web project using Webpack
@@ -69,3 +70,4 @@ https://VitalyTikhonov.github.io/Mesto_Webpack
 - Create a local copy of the repository using the SSH key *git@github.com:VitalyTikhonov/Mesto_Webpack.git* or download the archive [from the main page of the repository](https://github.com/VitalyTikhonov/Mesto_Webpack).
 - Install Webpack and the necessary components in the project using the _npm install_ command.
 - Call the *npm run build* command in the console for a final build, *npm run dev* for a development one or *npm run deploy* for a deploy one.
+###### As part of the Web-Development course at Yandex.Praktikum
