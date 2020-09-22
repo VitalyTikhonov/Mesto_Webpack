@@ -66,6 +66,6 @@ etc.
 ##### View it on Github Pages:
 https://VitalyTikhonov.github.io/Mesto_Webpack
 ##### For development purposes
-- Create a local copy of the repository using the SSH key *git@github.com: VitalyTikhonov/Mesto_Webpack.git* or download the archive [from the main page of the repository](https://github.com/VitalyTikhonov/Mesto_Webpack).
+- Create a local copy of the repository using the SSH key *git@github.com:VitalyTikhonov/Mesto_Webpack.git* or download the archive [from the main page of the repository](https://github.com/VitalyTikhonov/Mesto_Webpack).
 - Install Webpack and the necessary components in the project using the _npm install_ command.
 - Call the *npm run build* command in the console for a final build, *npm run dev* for a development one or *npm run deploy* for a deploy one.
