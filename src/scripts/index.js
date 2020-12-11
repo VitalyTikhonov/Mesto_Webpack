@@ -110,7 +110,7 @@ import {UserInfo} from "./UserInfo.js";
 
     /* ЭКЗЕМПЛЯРЫ КЛАССОВ */
     const formValidator = new FormValidator();
-    /* const newPlacePopupInst = new FormPopup(
+    const newPlacePopupInst = new FormPopup(
         newPlacePopup,
         newPlacePopupCloseIcon,
         newPlaceButton,
@@ -141,7 +141,7 @@ import {UserInfo} from "./UserInfo.js";
         formValidator,
         selectFormProcessor,
         userAvatarField,
-    ); */
+    );
     const api = new Api({
         baseUrl: `${API_URL}/cohort11`,
         authorization: '0b72fd76-9a90-456a-b6c4-44b360b3c5bd', // headers
